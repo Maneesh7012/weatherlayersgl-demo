@@ -1,0 +1,381 @@
+{
+  "run": "2026-11-04T00:00:00Z",
+  "source": "NOAA GFS via NOMADS",
+  "bounds": [
+    -180,
+    -90,
+    180,
+    90
+  ],
+  "datasets": {
+    "wind": {
+      "imageType": "VECTOR",
+      "imageUnscale": [
+        -128.0,
+        127.0
+      ],
+      "unit": "m/s"
+    },
+    "temp": {
+      "imageType": "SCALAR",
+      "imageUnscale": [
+        213.15,
+        325.15
+      ],
+      "unit": "K"
+    },
+    "humidity": {
+      "imageType": "SCALAR",
+      "imageUnscale": [
+        0.0,
+        100.0
+      ],
+      "unit": "%"
+    }
+  },
+  "frames": [
+    {
+      "datetime": "2026-11-04T00:00:00Z",
+      "forecastHour": 0,
+      "wind": "data/20261104_00/wind_20261104_053000.png",
+      "temp": "data/20261104_00/temp_20261104_053000.png",
+      "humidity": "data/20261104_00/humidity_20261104_053000.png"
+    },
+    {
+      "datetime": "2026-11-04T01:00:00Z",
+      "forecastHour": 1,
+      "wind": "data/20261104_00/wind_20261104_063000.png",
+      "temp": "data/20261104_00/temp_20261104_063000.png",
+      "humidity": "data/20261104_00/humidity_20261104_063000.png"
+    },
+    {
+      "datetime": "2026-11-04T02:00:00Z",
+      "forecastHour": 2,
+      "wind": "data/20261104_00/wind_20261104_073000.png",
+      "temp": "data/20261104_00/temp_20261104_073000.png",
+      "humidity": "data/20261104_00/humidity_20261104_073000.png"
+    },
+    {
+      "datetime": "2026-11-04T03:00:00Z",
+      "forecastHour": 3,
+      "wind": "data/20261104_00/wind_20261104_083000.png",
+      "temp": "data/20261104_00/temp_20261104_083000.png",
+      "humidity": "data/20261104_00/humidity_20261104_083000.png"
+    },
+    {
+      "datetime": "2026-11-04T04:00:00Z",
+      "forecastHour": 4,
+      "wind": "data/20261104_00/wind_20261104_093000.png",
+      "temp": "data/20261104_00/temp_20261104_093000.png",
+      "humidity": "data/20261104_00/humidity_20261104_093000.png"
+    },
+    {
+      "datetime": "2026-11-04T05:00:00Z",
+      "forecastHour": 5,
+      "wind": "data/20261104_00/wind_20261104_103000.png",
+      "temp": "data/20261104_00/temp_20261104_103000.png",
+      "humidity": "data/20261104_00/humidity_20261104_103000.png"
+    },
+    {
+      "datetime": "2026-11-04T06:00:00Z",
+      "forecastHour": 6,
+      "wind": "data/20261104_00/wind_20261104_113000.png",
+      "temp": "data/20261104_00/temp_20261104_113000.png",
+      "humidity": "data/20261104_00/humidity_20261104_113000.png"
+    },
+    {
+      "datetime": "2026-11-04T07:00:00Z",
+      "forecastHour": 7,
+      "wind": "data/20261104_00/wind_20261104_123000.png",
+      "temp": "data/20261104_00/temp_20261104_123000.png",
+      "humidity": "data/20261104_00/humidity_20261104_123000.png"
+    },
+    {
+      "datetime": "2026-11-04T08:00:00Z",
+      "forecastHour": 8,
+      "wind": "data/20261104_00/wind_20261104_133000.png",
+      "temp": "data/20261104_00/temp_20261104_133000.png",
+      "humidity": "data/20261104_00/humidity_20261104_133000.png"
+    },
+    {
+      "datetime": "2026-11-04T09:00:00Z",
+      "forecastHour": 9,
+      "wind": "data/20261104_00/wind_20261104_143000.png",
+      "temp": "data/20261104_00/temp_20261104_143000.png",
+      "humidity": "data/20261104_00/humidity_20261104_143000.png"
+    },
+    {
+      "datetime": "2026-11-04T10:00:00Z",
+      "forecastHour": 10,
+      "wind": "data/20261104_00/wind_20261104_153000.png",
+      "temp": "data/20261104_00/temp_20261104_153000.png",
+      "humidity": "data/20261104_00/humidity_20261104_153000.png"
+    },
+    {
+      "datetime": "2026-11-04T11:00:00Z",
+      "forecastHour": 11,
+      "wind": "data/20261104_00/wind_20261104_163000.png",
+      "temp": "data/20261104_00/temp_20261104_163000.png",
+      "humidity": "data/20261104_00/humidity_20261104_163000.png"
+    },
+    {
+      "datetime": "2026-11-04T12:00:00Z",
+      "forecastHour": 12,
+      "wind": "data/20261104_00/wind_20261104_173000.png",
+      "temp": "data/20261104_00/temp_20261104_173000.png",
+      "humidity": "data/20261104_00/humidity_20261104_173000.png"
+    },
+    {
+      "datetime": "2026-11-04T13:00:00Z",
+      "forecastHour": 13,
+      "wind": "data/20261104_00/wind_20261104_183000.png",
+      "temp": "data/20261104_00/temp_20261104_183000.png",
+      "humidity": "data/20261104_00/humidity_20261104_183000.png"
+    },
+    {
+      "datetime": "2026-11-04T14:00:00Z",
+      "forecastHour": 14,
+      "wind": "data/20261104_00/wind_20261104_193000.png",
+      "temp": "data/20261104_00/temp_20261104_193000.png",
+      "humidity": "data/20261104_00/humidity_20261104_193000.png"
+    },
+    {
+      "datetime": "2026-11-04T15:00:00Z",
+      "forecastHour": 15,
+      "wind": "data/20261104_00/wind_20261104_203000.png",
+      "temp": "data/20261104_00/temp_20261104_203000.png",
+      "humidity": "data/20261104_00/humidity_20261104_203000.png"
+    },
+    {
+      "datetime": "2026-11-04T16:00:00Z",
+      "forecastHour": 16,
+      "wind": "data/20261104_00/wind_20261104_213000.png",
+      "temp": "data/20261104_00/temp_20261104_213000.png",
+      "humidity": "data/20261104_00/humidity_20261104_213000.png"
+    },
+    {
+      "datetime": "2026-11-04T17:00:00Z",
+      "forecastHour": 17,
+      "wind": "data/20261104_00/wind_20261104_223000.png",
+      "temp": "data/20261104_00/temp_20261104_223000.png",
+      "humidity": "data/20261104_00/humidity_20261104_223000.png"
+    },
+    {
+      "datetime": "2026-11-04T18:00:00Z",
+      "forecastHour": 18,
+      "wind": "data/20261104_00/wind_20261104_233000.png",
+      "temp": "data/20261104_00/temp_20261104_233000.png",
+      "humidity": "data/20261104_00/humidity_20261104_233000.png"
+    },
+    {
+      "datetime": "2026-11-04T19:00:00Z",
+      "forecastHour": 19,
+      "wind": "data/20261104_00/wind_20261105_003000.png",
+      "temp": "data/20261104_00/temp_20261105_003000.png",
+      "humidity": "data/20261104_00/humidity_20261105_003000.png"
+    },
+    {
+      "datetime": "2026-11-04T20:00:00Z",
+      "forecastHour": 20,
+      "wind": "data/20261104_00/wind_20261105_013000.png",
+      "temp": "data/20261104_00/temp_20261105_013000.png",
+      "humidity": "data/20261104_00/humidity_20261105_013000.png"
+    },
+    {
+      "datetime": "2026-11-04T21:00:00Z",
+      "forecastHour": 21,
+      "wind": "data/20261104_00/wind_20261105_023000.png",
+      "temp": "data/20261104_00/temp_20261105_023000.png",
+      "humidity": "data/20261104_00/humidity_20261105_023000.png"
+    },
+    {
+      "datetime": "2026-11-04T22:00:00Z",
+      "forecastHour": 22,
+      "wind": "data/20261104_00/wind_20261105_033000.png",
+      "temp": "data/20261104_00/temp_20261105_033000.png",
+      "humidity": "data/20261104_00/humidity_20261105_033000.png"
+    },
+    {
+      "datetime": "2026-11-04T23:00:00Z",
+      "forecastHour": 23,
+      "wind": "data/20261104_00/wind_20261105_043000.png",
+      "temp": "data/20261104_00/temp_20261105_043000.png",
+      "humidity": "data/20261104_00/humidity_20261105_043000.png"
+    },
+    {
+      "datetime": "2026-11-05T00:00:00Z",
+      "forecastHour": 24,
+      "wind": "data/20261104_00/wind_20261105_053000.png",
+      "temp": "data/20261104_00/temp_20261105_053000.png",
+      "humidity": "data/20261104_00/humidity_20261105_053000.png"
+    },
+    {
+      "datetime": "2026-11-05T01:00:00Z",
+      "forecastHour": 25,
+      "wind": "data/20261104_00/wind_20261105_063000.png",
+      "temp": "data/20261104_00/temp_20261105_063000.png",
+      "humidity": "data/20261104_00/humidity_20261105_063000.png"
+    },
+    {
+      "datetime": "2026-11-05T02:00:00Z",
+      "forecastHour": 26,
+      "wind": "data/20261104_00/wind_20261105_073000.png",
+      "temp": "data/20261104_00/temp_20261105_073000.png",
+      "humidity": "data/20261104_00/humidity_20261105_073000.png"
+    },
+    {
+      "datetime": "2026-11-05T03:00:00Z",
+      "forecastHour": 27,
+      "wind": "data/20261104_00/wind_20261105_083000.png",
+      "temp": "data/20261104_00/temp_20261105_083000.png",
+      "humidity": "data/20261104_00/humidity_20261105_083000.png"
+    },
+    {
+      "datetime": "2026-11-05T04:00:00Z",
+      "forecastHour": 28,
+      "wind": "data/20261104_00/wind_20261105_093000.png",
+      "temp": "data/20261104_00/temp_20261105_093000.png",
+      "humidity": "data/20261104_00/humidity_20261105_093000.png"
+    },
+    {
+      "datetime": "2026-11-05T05:00:00Z",
+      "forecastHour": 29,
+      "wind": "data/20261104_00/wind_20261105_103000.png",
+      "temp": "data/20261104_00/temp_20261105_103000.png",
+      "humidity": "data/20261104_00/humidity_20261105_103000.png"
+    },
+    {
+      "datetime": "2026-11-05T06:00:00Z",
+      "forecastHour": 30,
+      "wind": "data/20261104_00/wind_20261105_113000.png",
+      "temp": "data/20261104_00/temp_20261105_113000.png",
+      "humidity": "data/20261104_00/humidity_20261105_113000.png"
+    },
+    {
+      "datetime": "2026-11-05T07:00:00Z",
+      "forecastHour": 31,
+      "wind": "data/20261104_00/wind_20261105_123000.png",
+      "temp": "data/20261104_00/temp_20261105_123000.png",
+      "humidity": "data/20261104_00/humidity_20261105_123000.png"
+    },
+    {
+      "datetime": "2026-11-05T08:00:00Z",
+      "forecastHour": 32,
+      "wind": "data/20261104_00/wind_20261105_133000.png",
+      "temp": "data/20261104_00/temp_20261105_133000.png",
+      "humidity": "data/20261104_00/humidity_20261105_133000.png"
+    },
+    {
+      "datetime": "2026-11-05T09:00:00Z",
+      "forecastHour": 33,
+      "wind": "data/20261104_00/wind_20261105_143000.png",
+      "temp": "data/20261104_00/temp_20261105_143000.png",
+      "humidity": "data/20261104_00/humidity_20261105_143000.png"
+    },
+    {
+      "datetime": "2026-11-05T10:00:00Z",
+      "forecastHour": 34,
+      "wind": "data/20261104_00/wind_20261105_153000.png",
+      "temp": "data/20261104_00/temp_20261105_153000.png",
+      "humidity": "data/20261104_00/humidity_20261105_153000.png"
+    },
+    {
+      "datetime": "2026-11-05T11:00:00Z",
+      "forecastHour": 35,
+      "wind": "data/20261104_00/wind_20261105_163000.png",
+      "temp": "data/20261104_00/temp_20261105_163000.png",
+      "humidity": "data/20261104_00/humidity_20261105_163000.png"
+    },
+    {
+      "datetime": "2026-11-05T12:00:00Z",
+      "forecastHour": 36,
+      "wind": "data/20261104_00/wind_20261105_173000.png",
+      "temp": "data/20261104_00/temp_20261105_173000.png",
+      "humidity": "data/20261104_00/humidity_20261105_173000.png"
+    },
+    {
+      "datetime": "2026-11-05T13:00:00Z",
+      "forecastHour": 37,
+      "wind": "data/20261104_00/wind_20261105_183000.png",
+      "temp": "data/20261104_00/temp_20261105_183000.png",
+      "humidity": "data/20261104_00/humidity_20261105_183000.png"
+    },
+    {
+      "datetime": "2026-11-05T14:00:00Z",
+      "forecastHour": 38,
+      "wind": "data/20261104_00/wind_20261105_193000.png",
+      "temp": "data/20261104_00/temp_20261105_193000.png",
+      "humidity": "data/20261104_00/humidity_20261105_193000.png"
+    },
+    {
+      "datetime": "2026-11-05T15:00:00Z",
+      "forecastHour": 39,
+      "wind": "data/20261104_00/wind_20261105_203000.png",
+      "temp": "data/20261104_00/temp_20261105_203000.png",
+      "humidity": "data/20261104_00/humidity_20261105_203000.png"
+    },
+    {
+      "datetime": "2026-11-05T16:00:00Z",
+      "forecastHour": 40,
+      "wind": "data/20261104_00/wind_20261105_213000.png",
+      "temp": "data/20261104_00/temp_20261105_213000.png",
+      "humidity": "data/20261104_00/humidity_20261105_213000.png"
+    },
+    {
+      "datetime": "2026-11-05T17:00:00Z",
+      "forecastHour": 41,
+      "wind": "data/20261104_00/wind_20261105_223000.png",
+      "temp": "data/20261104_00/temp_20261105_223000.png",
+      "humidity": "data/20261104_00/humidity_20261105_223000.png"
+    },
+    {
+      "datetime": "2026-11-05T18:00:00Z",
+      "forecastHour": 42,
+      "wind": "data/20261104_00/wind_20261105_233000.png",
+      "temp": "data/20261104_00/temp_20261105_233000.png",
+      "humidity": "data/20261104_00/humidity_20261105_233000.png"
+    },
+    {
+      "datetime": "2026-11-05T19:00:00Z",
+      "forecastHour": 43,
+      "wind": "data/20261104_00/wind_20261106_003000.png",
+      "temp": "data/20261104_00/temp_20261106_003000.png",
+      "humidity": "data/20261104_00/humidity_20261106_003000.png"
+    },
+    {
+      "datetime": "2026-11-05T20:00:00Z",
+      "forecastHour": 44,
+      "wind": "data/20261104_00/wind_20261106_013000.png",
+      "temp": "data/20261104_00/temp_20261106_013000.png",
+      "humidity": "data/20261104_00/humidity_20261106_013000.png"
+    },
+    {
+      "datetime": "2026-11-05T21:00:00Z",
+      "forecastHour": 45,
+      "wind": "data/20261104_00/wind_20261106_023000.png",
+      "temp": "data/20261104_00/temp_20261106_023000.png",
+      "humidity": "data/20261104_00/humidity_20261106_023000.png"
+    },
+    {
+      "datetime": "2026-11-05T22:00:00Z",
+      "forecastHour": 46,
+      "wind": "data/20261104_00/wind_20261106_033000.png",
+      "temp": "data/20261104_00/temp_20261106_033000.png",
+      "humidity": "data/20261104_00/humidity_20261106_033000.png"
+    },
+    {
+      "datetime": "2026-11-05T23:00:00Z",
+      "forecastHour": 47,
+      "wind": "data/20261104_00/wind_20261106_043000.png",
+      "temp": "data/20261104_00/temp_20261106_043000.png",
+      "humidity": "data/20261104_00/humidity_20261106_043000.png"
+    },
+    {
+      "datetime": "2026-11-06T00:00:00Z",
+      "forecastHour": 48,
+      "wind": "data/20261104_00/wind_20261106_053000.png",
+      "temp": "data/20261104_00/temp_20261106_053000.png",
+      "humidity": "data/20261104_00/humidity_20261106_053000.png"
+    }
+  ]
+}
