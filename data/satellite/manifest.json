@@ -1,0 +1,94 @@
+{
+  "source": "MOSDAC INSAT",
+  "bounds": [
+    0.351563,
+    -65.512963,
+    156.796875,
+    50.513427
+  ],
+  "datasets": {
+    "infrared": {
+      "imageType": "SCALAR",
+      "imageUnscale": [
+        190.0,
+        310.0
+      ],
+      "unit": "K"
+    },
+    "visible": {
+      "imageType": "SCALAR",
+      "imageUnscale": [
+        0.0,
+        1023.0
+      ],
+      "unit": "count"
+    }
+  },
+  "frames": [
+    {
+      "datetime": "2026-11-11T09:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_144500.webp",
+      "visible": "data/satellite/visible_20261111_144500.webp"
+    },
+    {
+      "datetime": "2026-11-11T09:45:00Z",
+      "infrared": "data/satellite/infrared_20261111_151500.webp",
+      "visible": "data/satellite/visible_20261111_151500.webp"
+    },
+    {
+      "datetime": "2026-11-11T10:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_154500.webp",
+      "visible": "data/satellite/visible_20261111_154500.webp"
+    },
+    {
+      "datetime": "2026-11-11T10:45:00Z",
+      "infrared": "data/satellite/infrared_20261111_161500.webp",
+      "visible": "data/satellite/visible_20261111_161500.webp"
+    },
+    {
+      "datetime": "2026-11-11T11:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_164500.webp",
+      "visible": "data/satellite/visible_20261111_164500.webp"
+    },
+    {
+      "datetime": "2026-11-11T11:45:00Z",
+      "infrared": "data/satellite/infrared_20261111_171500.webp",
+      "visible": "data/satellite/visible_20261111_171500.webp"
+    },
+    {
+      "datetime": "2026-11-11T12:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_174500.webp",
+      "visible": "data/satellite/visible_20261111_174500.webp"
+    },
+    {
+      "datetime": "2026-11-11T12:45:00Z",
+      "infrared": "data/satellite/infrared_20261111_181500.webp",
+      "visible": "data/satellite/visible_20261111_181500.webp"
+    },
+    {
+      "datetime": "2026-11-11T13:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_184500.webp",
+      "visible": "data/satellite/visible_20261111_184500.webp"
+    },
+    {
+      "datetime": "2026-11-11T13:45:00Z",
+      "infrared": "data/satellite/infrared_20261111_191500.webp",
+      "visible": "data/satellite/visible_20261111_191500.webp"
+    },
+    {
+      "datetime": "2026-11-11T14:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_194500.webp",
+      "visible": "data/satellite/visible_20261111_194500.webp"
+    },
+    {
+      "datetime": "2026-11-11T14:45:00Z",
+      "infrared": "data/satellite/infrared_20261111_201500.webp",
+      "visible": "data/satellite/visible_20261111_201500.webp"
+    },
+    {
+      "datetime": "2026-11-11T15:15:00Z",
+      "infrared": "data/satellite/infrared_20261111_204500.webp",
+      "visible": "data/satellite/visible_20261111_204500.webp"
+    }
+  ]
+}
